@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    background-color: rgb(61, 48, 48);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 80vw; */
+    align-items: center;
+    padding: 0 80px;
+    color: #fff;
+    font-size: 20px;
+}
+
+nav p {
+    cursor: pointer;
+}
+
+nav p span {
+    color: orangered;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+nav button {
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content {
+    /* margin-top: 30vh; */
+    margin: 170px;
+}
+.slide1{
+    display: flex;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.content h1 span {
+    color: orangered;
+}
+
+.content button{
+    padding: 4px 12px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.content #hire{
+    background-color: rgb(61, 48, 48);
+    color: #fff;
+}
+
+.content #Experience{
+    background-color: orangered;
+    color: #fff;
+    margin: 15px;
+}
+
+.pic{
+    margin-top: 170px;
+}
